@@ -62,38 +62,4 @@ function drawChart() {
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawChart);
 
-function countByPartId(){
 
-    var xhttp = new XMLHttpRequest();
-
-}
-//
-// function drawBasic() {
-//
-//       // var data = google.visualization.arrayToDataTable([
-//       //   ['City', '2010 Population',],
-//       //   ['New York City, NY', 8175000],
-//       //   ['Los Angeles, CA', 3792000],
-//       //   ['Chicago, IL', 2695000],
-//       //   ['Houston, TX', 2099000],
-//       //   ['Philadelphia, PA', 1526000]
-//       // ]);
-//
-//       data = countByPartId();
-//
-//       var options = {
-//         title: 'Total Parts by Id/name',
-//         chartArea: {width: '50%'},
-//         hAxis: {
-//           title: 'Total Number',
-//           minValue: 0
-//         },
-//         vAxis: {
-//           title: 'Part'
-//         }
-//       };
-//
-//       var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-//
-//       chart.draw(data, options);
-// }
